@@ -24,6 +24,36 @@ public class hw2
             System.out.print(arr[i] + ", ");
 
         }
+        
+         String op;
+            do
+            {
+                System.out.println ( "" );
+                System.out.println ( "1- Find the minimum and the maximum of the array" );
+                System.out.println ( "2- Find the average of the array" );
+                System.out.println ( "3- Find the sum of elements with odd- and even-numbered indexes" );
+                System.out.println ( "4- Exit" );
+                System.out.println ( "" );
+
+                System.out.print( "Select an operation: " );
+                op = in.next();
+
+                if ( op.equals("1") )
+                {
+
+                }
+                else if ( op.equals("2") )
+                {
+
+                }
+                else if ( op.equals("3") )
+                {
+
+                }
+
+
+            } while( !(op.equals("4")));
+            
     }
     
 }
