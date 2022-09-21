@@ -40,7 +40,24 @@ public class hw2
 
                 if ( op.equals("1") )
                 {
-
+                    public int findMin(int[] list){
+                       int minArray = 100;
+                       for(int i=0; i<list.length; i++){
+                           if(list[i]<minArray){
+                           minArray = list[i];
+                           }
+                       }
+                    return minArray;
+                    }
+                    public int findMax(int[] list){
+                        int maxArray = 0;
+                        for(int i=0; i<list.length; i++){
+                            if(list[i]>maxArray){
+                            maxArray = list[i];
+                            }
+                        }
+                    return maxArray;
+                    }
                 }
                 else if ( op.equals("2") )
                 {
