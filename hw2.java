@@ -95,7 +95,30 @@ public class hw2
                 }
                 else if ( op.equals("3") )
                 {
+                    int sumOdd=0;
+                    int sumEven=0;
 
+                        public int sumOddIndx(int[]list){
+
+                            for(int i=0;i<list.length;i++ ){
+                                if(i%2!=0){
+                                    sumOdd=sumOdd+list[i];
+                                }
+                            }
+                            return sumOdd;
+                        }
+
+                        public int sumEvenIndx(int[]list){
+
+                            for(int i=0;i<list.length;i++ ){
+                                if(i%2==0){
+                                    sumEven=sumEven+list[i];
+                                }
+                            }
+                            return sumEven;                         
+                        }
+                    System.out.println("sum of Odd indexes:"+sumOdd);
+                     System.out.println("sum of Even indexes:"+sumEven);
                 }
 
 
