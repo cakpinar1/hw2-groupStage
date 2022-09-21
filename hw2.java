@@ -59,17 +59,17 @@ public class hw2
                         }
                         return output;
                         
-                        for(int i=0; i<arr.length; i++){
+                        for(int i=0; i<output.length; i++){
                             if( i== 0)
                             {
-                                System.out.print( "{" + arr[i] + ", " );
+                                System.out.print( "{" + output[i] + ", " );
                                }
-                            else if ( i== arr.length-1 )
+                            else if ( i== output.length-1 )
                             {
-                                System.out.print( arr[i] + "}");
+                                System.out.print( output[i] + "}");
                                }
                             else
-                                System.out.print(arr[i] + ", ");
+                                System.out.print(output[i] + ", ");
 
                             }
        
