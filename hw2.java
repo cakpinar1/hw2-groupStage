@@ -44,7 +44,37 @@ public class hw2
                 }
                 else if ( op.equals("2") )
                 {
+                    public static int[] average(int[] arr) {
+                        int sum = 0;
+                        int avg = 0;
+                        int[] output = new int[arr.length];
 
+                        for (int i = 0; i < arr.length; i++){
+                            sum += arr[i];
+                        }
+                        avg = sum/arr.length;
+
+                        for (int j = 0; j < arr.length; j++) {
+                             output[j] = (arr[j] - avg);
+                        }
+                        return output;
+                        
+                        for(int i=0; i<arr.length; i++){
+                            if( i== 0)
+                            {
+                                System.out.print( "{" + arr[i] + ", " );
+                               }
+                            else if ( i== arr.length-1 )
+                            {
+                                System.out.print( arr[i] + "}");
+                               }
+                            else
+                                System.out.print(arr[i] + ", ");
+
+                            }
+       
+    }
+    
                 }
                 else if ( op.equals("3") )
                 {
